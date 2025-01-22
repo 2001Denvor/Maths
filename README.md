@@ -6,7 +6,7 @@ from tkinter import messagebox
 def addition():
    user_input1=int(enter1.get())
    user_input2=int(enter2.get())
-   if user_input1!=0 or user_input2!=0:
+   if user_input1 or user_input2:
        result=[user_input1,user_input2]
        messagebox.showinfo("Output",f"Summation of two numbers is ={sum(result)} ")
    else:
